@@ -1,7 +1,7 @@
       
 /* This is a modification of code found at http://jamesonchrome.blogspot.com/2015/08/version-44-code-with-ctrl-alt-e.html to make use of a Teensy 3.2s and Teensy-LC for automated chromebook enrollment
    The modification handles all enrollment screens as of ChromeOS 54.*. The code does not however enter WiFi information as the expectation is
-   that the Chromebook will be attached to ethernet for enrollment. WiFi info will be supplied by policy on the Admin console. 
+   that the Chromebook will be attached to ethernet for enrollment. WiFi info will be supplied by policy. 
    
    Depending on your network speed or other factors you may need to tweek the delay settings. These are the settings that I found in my envirmoment allowed enough time for screens to process 
    but not to much time you are waiting forever. You mus change the username and password in the code - lines 58 and 66
